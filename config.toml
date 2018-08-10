@@ -10,51 +10,61 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[outputs]
+  page = ["json"] # A player
+  section = ["json"] # All players
+  home = ["json"] # Everything
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
 
-[menu]
+# [menu]
 
-  [[menu.main]]
-    identifier = "post"
-    name = "Blog"
-    title = "blog section"
-    url = "/post/"
-    weight = -110
+#   [[menu.main]]
+#     identifier = "post"
+#     name = "Blog"
+#     title = "blog section"
+#     url = "/post/"
+#     weight = -110
 
-  [[menu.main]]
-    identifier = "talk"
-    name = "Talks"
-    url = "/talk/"
-    weight = 10
+#   [[menu.main]]
+#     identifier = "talk"
+#     name = "Talks"
+#     url = "/talk/"
+#     weight = 10
 
-  [[menu.main]]
-    identifier = "project"
-    name = "Projects"
-    title = "Projects"
-    url = "/project/"
-    weight = 20
+#   [[menu.main]]
+#     identifier = "project"
+#     name = "Projects"
+#     title = "Projects"
+#     url = "/project/"
+#     weight = 20
 
-  [[menu.main]]
-    identifier = "user"
-    name = "Developers"
-    url = "/user/"
-    weight = 30
+#   [[menu.main]]
+#     identifier = "user"
+#     name = "Developers"
+#     url = "/user/"
+#     weight = 30
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 40
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 40
 
-  [[menu.main]]
-    identifier = "donate"
-    name = "Donate"
-    url = "/donate/"
-    weight = 50
+#   [[menu.main]]
+#     identifier = "donate"
+#     name = "Donate"
+#     url = "/donate/"
+#     weight = 80
 
+#   [[menu.main]]
+#     identifier = "outreach"
+#     name = "Outreach"
+#     url = "/outreach/"
+#     weight = 45
 
 [params]
   favicon = ""
