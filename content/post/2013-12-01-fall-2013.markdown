@@ -1,0 +1,7 @@
+---
+title:  Fall 2013
+date:   2013-12-01
+---
+
+RCOS Students participated in a number of Hackathons (***MITHack, YaleHack, RareDisease Hackathon ***) this semester.
+  

@@ -1,0 +1,6 @@
+---
+title:  HackRPI
+date:   2016-11-15
+---
+
+Congratulations to Kathleen Burkhardt '19 for her RedFlag Project in HackRPI 2016 which won an award Best Domain and HackHarassment [Project](https://devpost.com/software/redflag)
